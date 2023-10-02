@@ -1,13 +1,38 @@
 /* style.css */
 
-/* Add the background image and set a black background for the text within .jumbotron */
+/* Set a grey background color for the .jumbotron */
 .jumbotron {
-    background-image: url('background.png');
+    background-color: #4e4c4c;
     background-size: cover;
     background-position: center;
 }
 
+/* Set white text color for h1 and p elements inside .jumbotron */
 .jumbotron h1, .jumbotron p {
-    color: white !important; /* Text color */
-    background-color: black !important; /* Background color for the text */
+    color: white;
+}
+
+/* Create a container with a black background around the text */
+.jumbotron .text-container {
+    background-color: black;
+    padding: 10px; /* Adjust the padding to control the gap around the text */
+    margin: 5px; /* Add margin to control the size of the black background */
+}
+
+/* Set a grey background color for the entire page */
+body {
+    background-color: #4e4c4c; /* Use your preferred shade of grey */
+}
+
+.custom-navbar {
+    background-color: lightblue; /* Set your desired background color here */
+}
+
+.custom-col {
+    color: lightblue;
+}
+
+.white {
+    color: white;
+    
 }
