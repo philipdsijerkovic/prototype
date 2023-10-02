@@ -1,0 +1,13 @@
+/* style.css */
+
+/* Add the background image and set a black background for the text within .jumbotron */
+.jumbotron {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1, .jumbotron p {
+    color: white !important; /* Text color */
+    background-color: black !important; /* Background color for the text */
+}
