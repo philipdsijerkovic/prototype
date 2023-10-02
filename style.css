@@ -1,38 +1,58 @@
-/* style.css */
-
-/* Set a grey background color for the .jumbotron */
-.jumbotron {
-    background-color: #4e4c4c;
-    background-size: cover;
-    background-position: center;
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-/* Set white text color for h1 and p elements inside .jumbotron */
-.jumbotron h1, .jumbotron p {
+/* Define a custom background color */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+.custom-navbar {
+    background-color: #333;
     color: white;
 }
 
-/* Create a container with a black background around the text */
-.jumbotron .text-container {
-    background-color: black;
-    padding: 10px; /* Adjust the padding to control the gap around the text */
-    margin: 5px; /* Add margin to control the size of the black background */
+.custom-navbar a {
+    color: white;
 }
 
-/* Set a grey background color for the entire page */
-body {
-    background-color: #4e4c4c; /* Use your preferred shade of grey */
-}
-
-.custom-navbar {
-    background-color: lightblue; /* Set your desired background color here */
-}
-
-.custom-col {
+/* Style the hero section */
+.jumbotron {
+    background-image: url('background.png');
+    background-size: cover;
     color: lightblue;
+    padding: 100px 0;
 }
 
+/* Style the hero button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Style the features section */
+.custom-col {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 50px 0; /* Add margin between feature sections */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Style the footer */
+.bg-dark {
+    background-color: #333;
+    color: white;
+}
+
+/* Custom styles for specific elements */
 .white {
     color: white;
-    
 }
+
+/* Add your custom styles below this line */
