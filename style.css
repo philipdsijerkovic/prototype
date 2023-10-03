@@ -22,10 +22,10 @@ body {
 
 /* Style the hero section */
 .jumbotron {
-    background-image: url('background.png');
+    background-color: gray;
     background-size: cover;
     color: lightblue;
-    padding: 100px 0;
+
 }
 
 /* Style the hero button */
